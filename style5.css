@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #eceef0;
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  align-items: center;
+}
+
+.sign {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./background.jpg);
+  opacity: 0.4;
+  border-radius: 15px 15px 0 0;
+  background-repeat: no-repeat;
+  background-size: 600px 250px;
+  width: 600px;
+  height: 200px;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-form {
+  background-color: #ffffff;
+
+  width: 600px;
+  height: 500px;
+  border-radius: 15px;
+}
+
+.flex-input {
+  display: flex;
+  display: flex;
+  justify-content: center;
+
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+input[type="text"],
+[type="password"] {
+  padding: 10px;
+  font-size: 18px;
+  width: 350px;
+  border-style: none none solid none;
+  border-color: rgb(180, 177, 177);
+}
+input::placeholder {
+  color: rgb(155, 152, 152);
+}
+label {
+  flex-basis: 100px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  color: rgb(155, 152, 152);
+}
+.btn {
+  width: 150px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #6fb453;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  margin: 30px 0;
+}
+.btn-container {
+  margin-left: 170px;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 120px;
+}
+
+.flex-container a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(155, 152, 152);
+}
